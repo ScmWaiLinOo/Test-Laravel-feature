@@ -1,0 +1,3 @@
+php artisan
+php artisan make:command testCommand
+php artisan testCommand
