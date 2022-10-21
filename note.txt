@@ -1,0 +1,13 @@
+Renaming the local branch:
+
+If logged in another branch,
+
+git branch -m old_branch new_branch 
+If logged in the same branch,
+
+git branch -m new_branch
+Renaming remote branch:
+
+git push origin :old_branch    // Delete the remote branch
+
+git push --set-upstream origin new_branch   // Create a new remote branch
